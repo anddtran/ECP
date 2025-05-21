@@ -1,4 +1,4 @@
-# UECP Codebase Summary & Structure
+# ECP Codebase Summary & Structure
 
 This document provides an overview of the UECP project's structure, key components, and how they interact. It will be updated as the codebase evolves.
 
@@ -7,14 +7,14 @@ This document provides an overview of the UECP project's structure, key componen
 As of now, the project primarily consists of documentation and planning materials.
 
 ### 1. Root Directory Files
-*   **`README.md`**: The main entry point for the project. Provides a high-level overview, project goals, problem statement, proposed solution (UECP), key benefits, and a summarized roadmap.
+*   **`README.md`**: The main entry point for the project. Provides a high-level overview, project goals, problem statement, proposed solution (ECP), key benefits, and a summarized roadmap.
 *   **`draft.txt`**: The initial white paper outline and draft content that served as the primary source for the `README.md` and initial `cline_docs` content.
 
 ### 2. `cline_docs` Directory
 This directory houses essential project management and planning documents, following the Cline custom instructions.
 
 *   **`projectRoadmap.md`**:
-    *   **Purpose:** Outlines high-level project goals, key features/milestones broken down by phases, completion criteria, and a tracker for completed tasks. This is the strategic plan for UECP development.
+    *   **Purpose:** Outlines high-level project goals, key features/milestones broken down by phases, completion criteria, and a tracker for completed tasks. This is the strategic plan for ECP development.
     *   **Interactions:** Guides the tasks listed in `currentTask.md`.
 *   **`currentTask.md`**:
     *   **Purpose:** Details the current objectives, relevant context for these objectives, and specific next steps. This is the operational guide for ongoing work.
@@ -53,15 +53,15 @@ This directory houses essential project management and planning documents, follo
 *(Placeholder for future use. This section will track how user feedback influences project direction and feature development.)*
 
 ## Future Code Components (Placeholders)
-*   **UECP Core Libraries (e.g., Python, JavaScript):**
-    *   Parser for UECP syntax.
-    *   Validator for UECP expressions.
-    *   Generator for creating UECP expressions.
+*   **ECP Core Libraries (e.g., Python, JavaScript):**
+    *   Parser for ECP syntax.
+    *   Validator for ECP expressions.
+    *   Generator for creating ECP expressions.
     *   Interpreter/Translator for converting UECP output to other formats.
 *   **Experimental Test Harness:**
     *   Scripts/tools for sending UECP and natural language prompts to various LLM APIs.
     *   Modules for collecting and analyzing LLM responses.
 *   **Sample Applications/Examples:**
-    *   Demonstrations of UECP in various use cases.
+    *   Demonstrations of ECP in various use cases.
 
 *(This document will be updated significantly as code development begins and the project structure matures.)*
