@@ -1,6 +1,6 @@
 # ECP: Efficient Communication Profile 🚀
 
-**A novel, non-linguistic system for instructing Large Language Models (LLMs) and exchanging data, designed for enhanced efficiency, interoperability, and performance.**
+**A novel, non-linguistic system for instructing Large Language Models (LLMs) and exchanging data, designed for enhanced efficiency, compression, interoperability, and performance.**
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## ✨ Abstract
 
-Large Language Models (LLMs) often struggle with the inefficiencies and ambiguities of natural human language. ECP (Efficient Communication Profile) is a proposed non-linguistic system for instructing LLMs and exchanging data. It aims to leverage fundamental computational structures (like logic, math, and structured data) to achieve universal understanding across diverse LLMs without requiring specific retraining. ECP focuses on minimizing ambiguity and token count, promising significant gains in efficiency, accuracy, and interoperability for AI applications, offering value both independently and in synergy with context management frameworks.
+Large Language Models (LLMs) often struggle with the inefficiencies and ambiguities of natural human language. ECP (Efficient Communication Profile) is a proposed non-linguistic system for instructing LLMs and exchanging data. It aims to leverage fundamental computational structures (like logic, math, and structured data) combined with intelligent compression to achieve universal understanding across diverse LLMs without requiring specific retraining. ECP focuses on minimizing ambiguity, token count, and transmission overhead, promising significant gains in efficiency, speed, accuracy, and interoperability for AI applications, offering value both independently and in synergy with context management frameworks.
 
 ---
 
@@ -28,7 +28,7 @@ Large Language Models (LLMs) often struggle with the inefficiencies and ambiguit
 Interacting with LLMs using natural language presents several challenges:
 
 *   **Ambiguity:** Natural language is often open to multiple interpretations (lexical, syntactic, semantic), requiring significant LLM effort to resolve.
-*   **Inefficiency:** High token counts for complex instructions, redundancy, and filler words lead to increased costs, latency, and can hit input limits.
+*   **Inefficiency:** High token counts for complex instructions, redundancy, and filler words lead to increased costs, latency, slow transmission, and can hit input limits.
 *   **Lack of Standardization:** Prompt engineering techniques vary widely. Instructions effective for one LLM may fail or perform differently on another, hindering application portability.
 *   **Machine-to-Machine Suboptimality:** Natural language is not an ideal medium for automated systems that need to reliably and efficiently instruct LLMs.
 
@@ -43,6 +43,7 @@ ECP aims to be distinct from, yet potentially highly complementary to, context m
 ### Core Principles
 
 *   **Efficiency**: Minimize token count and parsing complexity for both inputs and outputs.
+*   **Compression**: Built-in compression algorithms optimized for structured instruction data to maximize transmission speed and context utilization.
 *   **Unambiguity**: Every valid ECP expression has precisely one interpretation.
 *   **Universality**: Achieved by using symbolic structures, operators, and formats (logic, math, JSON-like structures) likely to be understood by most major LLMs without specific fine-tuning on ECP itself.
 *   **Simplicity**: A core set of primitives that can be combined to represent complex instructions.
@@ -53,7 +54,7 @@ ECP aims to be distinct from, yet potentially highly complementary to, context m
 
 Adopting ECP aims to provide several advantages:
 
-*   **Dramatically Reduced Token Counts:** Lower API costs, faster transmission, and the ability to fit more complex instructions into limited context windows.
+*   **Dramatically Reduced Payload Size:** Lower API costs through reduced token counts and built-in compression, faster transmission, and the ability to fit more complex instructions into limited context windows.
 *   **Improved Accuracy & Reliability:** Eliminates linguistic ambiguity, leading to more predictable and correct execution of instructions.
 *   **Enhanced Interoperability:** Provides a stable target format, aiming for more consistent results across different LLMs.
 *   **Simplified Automation:** Makes it easier for software agents and workflow tools to generate and interpret LLM communications.
@@ -72,6 +73,7 @@ This is a high-level overview of the planned phases for ECP development:
     *   Definition of target use cases and core requirements for ECP.
 *   **Phase 2: Protocol Design & Formal Specification**
     *   Selection and refinement of the core syntax/format (e.g., JSON-based, S-expression based).
+    *   Design of compression algorithms optimized for structured instruction data.
     *   Definition of the minimal set of universally understood actions, operators, and data types.
     *   Creation of a detailed ECP v0.1 specification document.
 *   **Phase 3: Prototyping & Empirical Validation**
@@ -99,6 +101,8 @@ We are excited about the potential of ECP and aim to build an open, collaborativ
 
 ## 📄 License
 
-This project is intended to be open source to encourage widespread adoption and collaboration. The specific license is yet to be finalized but will likely be a permissive one such as the MIT License or Apache License 2.0.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License was chosen to encourage widespread adoption and collaboration while removing barriers for both open source and commercial use.
 
 ---
